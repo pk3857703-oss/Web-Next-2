@@ -87,10 +87,11 @@ export default function page() {
           OUR PROJECTS
         </h1>   
         <div className='h-100 flex gap-5  bg-amber-100 '>
-          <div className='h-40 w-60 bg-amber-300 '></div>
-          <div className='h-40 w-60 bg-amber-300 '></div>
-          <div className='h-40 w-60 bg-amber-300 '></div>
-          <div className='h-40 w-60 bg-amber-300 '></div>
+          <div className='h-40 w-60 bg-amber-700 '></div>
+          <div className='h-40 w-60 bg-amber-700 '></div>
+          <div className='h-40 w-60 bg-amber-700 '></div>
+          <div className='h-40 w-60 bg-amber-700 '></div>
+          
          
         </div>
         <div>
