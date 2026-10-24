@@ -1,0 +1,40 @@
+#logo_wrapper {
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+#moving_logo {
+  display: flex;
+  width: max-content;
+  flex-wrap: nowrap;
+  animation: marquee 25s linear infinite;
+  will-change: transform;
+}
+
+.logo_group {
+  display: flex;
+  flex: none;
+  gap: 4rem;
+  padding-right: 4rem;
+}
+
+.logo_group img {
+  display: block;
+  box-sizing: border-box;
+  flex: 0 0 180px;
+  width: 180px;
+  height: 120px;
+  object-fit: contain;
+  background-color: #fff;
+}
+
+@keyframes marquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
