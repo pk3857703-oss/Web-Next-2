@@ -137,7 +137,7 @@ export default function page() {
         </div>
       </section>
       {/* our projects */}
-      <div>
+      <div className='mx-5'>
 
         <h1 className="my-30 mb-12 text-center font-sans text-4xl font-bold sm:mb-16 sm:text-6xl lg:text-8xl">
           OUR PROJECTS
@@ -227,13 +227,40 @@ Lets us know what your requirements are we are the builders. Nothing stop us.   
       <img className='transition-transform duration-200 ease-in-out hover:scale-105 hover:-translate-y-3  border rounded-2xl ' src="https://itsdeligh.com/assets/twitter.jpeg" alt=""  width={280}/>
       <img className='transition-transform duration-200 ease-in-out hover:scale-105 hover:-translate-y-3 border rounded-2xl ' src="https://itsdeligh.com/assets/linked.webp" alt="" width={280} />
        </div> </div>
-       
+       <div className=' my-5 flex justify-center gap-10 mx-5'>
+        <img src="https://itsdeligh.com/assets/meta.png" alt="" className='my-1 w-20 h-7 transition-transform duration-200 ease-in-out hover:scale-105 hover:-translate-y-3 rounded-4xl hover:shadow-lg hover:border' />
+        <img src="https://itsdeligh.com/assets/shopu.jpg" alt=""className='my-1 w-34 h-8 transition-transform duration-200 ease-in-out hover:scale-105 hover:-translate-y-3  rounded-4xl hover:shadow-lg hover:border '/>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_KokdkJVeTs9S5hw7TxzEqmkI3upL_K5pDviS1VQaQ&s=10" alt="" className='my-1 rounded-4xl w-17 h-10 transition-transform duration-200 ease-in-out hover:scale-105 hover:-translate-y-3 hover:border' />
+      </div>
       
       </div>
       
 
       {/* contact me */}
-        
+  <h1 className='my-30 md:text-8xl font-thinbold font-sans mx-5 w-[65%] justify-center  flex sm:text-6xl '>Contact Me</h1>      
+<form className="max-w-sm mx-auto space-y-4 font-sans">
+
+    <div>
+        <label  className="block mb-2.5 text-sm font-medium text-heading">Name (required)
+</label>
+        <input type="text" id="visitors" className="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-2.5 py-2 shadow-xs placeholder:text-body" placeholder="" required />
+    </div>
+    <div>
+        <label  className="block mb-2.5 text-sm font-medium text-heading">Phone Number (required)
+</label>
+        <input type="text" id="visitors" className="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body" placeholder="" required />
+    </div>
+    <div>
+        <label className="block mb-2.5 text-sm font-medium text-heading">Project description (required)
+</label>
+        <input type="text" id="visitors" className="bg-neutral-secondary-medium border border-default-medium text-heading text-base rounded-base focus:ring-brand focus:border-brand block w-full px-3.5 py-3 shadow-xs placeholder:text-body" placeholder="" required />
+    </div>
+   <button className='text-white bg-black  text-heading font-thinbold py-2 px-4 rounded-3xl hover:bg-gray-500' type="submit">
+      Submit
+    </button>
+</form>
+<div className="h-16"></div>
+
       
      
      
