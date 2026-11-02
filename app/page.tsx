@@ -227,12 +227,7 @@ Lets us know what your requirements are we are the builders. Nothing stop us.   
       <img className='transition-transform duration-200 ease-in-out hover:scale-105 hover:-translate-y-3  border rounded-2xl ' src="https://itsdeligh.com/assets/twitter.jpeg" alt=""  width={280}/>
       <img className='transition-transform duration-200 ease-in-out hover:scale-105 hover:-translate-y-3 border rounded-2xl ' src="https://itsdeligh.com/assets/linked.webp" alt="" width={280} />
        </div> </div>
-       <div className='flex justify-center space-x-7 sm:gap-1'>
-         <img src="https://itsdeligh.com/assets/meta.png" alt="" className='mx-15 w-25 h-10 transition-transform duration-200 ease-in-out hover:scale-105 hover:-translate-y-3 rounded-4xl hover:shadow-lg hover:border' />
-      <img src="https://itsdeligh.com/assets/shopu.jpg" alt=""className='w-45 h-10  transition-transform duration-200 ease-in-out hover:scale-105 hover:-translate-y-3  rounded-4xl hover:shadow-lg hover:border '/>
-     <div className='hover:shadow-lg hover:border  hover:rounded-4xl  flex transition-transform duration-200 ease-in-out hover:scale-105 hover:-translate-y-3'> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_KokdkJVeTs9S5hw7TxzEqmkI3upL_K5pDviS1VQaQ&s=10" alt="" className=' rounded-4xl w-23 h-12 ' />
-      <span className = 'font-sans my-3 mx-1'>Google Cloud</span>
-      </div> </div>
+       
       
       </div>
       
