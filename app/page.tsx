@@ -221,53 +221,24 @@ Lets us know what your requirements are we are the builders. Nothing stop us.   
         
       </div>
       <div className=''>
+        <div className='overflow-x-auto scrollbar-hide'>
         <div className='flex gap-10 justify-center my-20 sm:text-4xl'>
       <img className='transition-transform duration-200 ease-in-out hover:scale-105 hover:-translate-y-3  border rounded-2xl' src="https://itsdeligh.com/assets/insta.webp" alt="" width={280} />
       <img className='transition-transform duration-200 ease-in-out hover:scale-105 hover:-translate-y-3  border rounded-2xl ' src="https://itsdeligh.com/assets/twitter.jpeg" alt=""  width={280}/>
       <img className='transition-transform duration-200 ease-in-out hover:scale-105 hover:-translate-y-3 border rounded-2xl ' src="https://itsdeligh.com/assets/linked.webp" alt="" width={280} />
-       </div>
-       <div className='flex justify-center space-x-10'>
-         <img src="https://itsdeligh.com/assets/meta.png" alt="" className='w-25 h-10 transition-transform duration-200 ease-in-out hover:scale-105 hover:-translate-y-3 rounded-4xl' />
-      <img src="https://itsdeligh.com/assets/shopu.jpg" alt=""className='w-45 h-10 my-13 mx-2 transition-transform duration-200 ease-in-out hover:scale-105 hover:-translate-y-3  rounded-4xl '/>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn4-H9Wch5qUuMd1oadnVga4BuOvkQtEfoV3JOH3cLQQ&s=10" alt="" className='w-50 h-60 transition-transform duration-200 ease-in-out hover:scale-105 hover:-translate-y-3' />
-    
-       </div>
+       </div> </div>
+       <div className='flex justify-center space-x-7 sm:gap-1'>
+         <img src="https://itsdeligh.com/assets/meta.png" alt="" className='mx-15 w-25 h-10 transition-transform duration-200 ease-in-out hover:scale-105 hover:-translate-y-3 rounded-4xl hover:shadow-lg hover:border' />
+      <img src="https://itsdeligh.com/assets/shopu.jpg" alt=""className='w-45 h-10  transition-transform duration-200 ease-in-out hover:scale-105 hover:-translate-y-3  rounded-4xl hover:shadow-lg hover:border '/>
+     <div className='hover:shadow-lg hover:border  hover:rounded-4xl  flex transition-transform duration-200 ease-in-out hover:scale-105 hover:-translate-y-3'> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_KokdkJVeTs9S5hw7TxzEqmkI3upL_K5pDviS1VQaQ&s=10" alt="" className=' rounded-4xl w-23 h-12 ' />
+      <span className = 'font-sans my-3 mx-1'>Google Cloud</span>
+      </div> </div>
       
       </div>
+      
+
       {/* contact me */}
-      <div className='bg-amber-500 font-sans'>
-        <h1 className=" bg-amber-200 w-[55%] my-30 mb-12 text-center font-sans text-4xl font-bold sm:mb-16 sm:text-6xl lg:text-8xl">
-          Contact me
-
-        </h1>
-        <div className='flex'>
-          <span className='bg-amber-550'>
-            Safdurjung, New Delhi <br /> 2026
-            <br />
-            <br />
-            <br />
-            <span className='bg-amber-900 mx-'>
-              Office hours  <br />
-              Monday - Friday <br />
-              11 AM - 2 PM</span>
-          </span>
-          <div className='mx-100 w-[55%] '>
-            <div>
-
-            </div>
-            <span className='bg-amber-900'>Name (required)
-            </span> <br />
-            <input style={{ borderBottom: '2px solid black', width: '500px' }} type="text" name="" id="" /> <br />
-
-            <span>Phone Number (required)
-            </span> <br />
-            <input style={{ borderBottom: '2px solid black', width: '500px' }} type="text" name="" id="" /> <br />
-
-            <span>Project description (required)</span> <br />
-            <input style={{ borderBottom: '2px solid black', width: '500px' }} type="text" name="" id="" /> <br />
-          </div>
-        </div>
-      </div>
+        
       
      
      
