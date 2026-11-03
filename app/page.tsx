@@ -285,8 +285,8 @@ Lets us know what your requirements are we are the builders. Nothing stop us.   
 </form>
 <div className="h-16"></div>
 
-<footer className='bg-olive-900  bg-neutral-tertiary-medium text-heading py-6 px-4 text-stone-200 font-sans'>
-  <div className='  justify-evenly font-bold  h-65 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-6 max-w-7xl mx-auto my-10 '>
+<footer className=' bg-olive-900  bg-neutral-tertiary-medium text-heading py-6 px-4 text-stone-200 font-sans'>
+  <div className='  justify-evenly font-bold  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-6 max-w-7xl mx-auto my-10 '>
     <div className=''>SERVICES
       <div className='flex flex-col gap-3 font-light my-5 opacity-70 '>
     <a href="" className=''>Web Development</a>
