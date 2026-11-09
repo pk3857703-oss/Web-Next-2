@@ -360,11 +360,11 @@ fill="none">
     
   </div>
   <div className='text-center'>
-  <h2 className="font-bold text-[clamp(2rem,12vw,13rem)] opacity-5">
+  <h2 className=" font-bold text-[clamp(2rem,12vw,13rem)] opacity-5 ">
     Software
   </h2>
 
-  <h2 className="opacity-5 text-[clamp(2rem,12vw,13rem)] font-bold text-gray-800 dark:text-white">
+  <h2 className=" opacity-5 text-[clamp(2rem,12vw,13rem)] font-bold ">
     Engineer
   </h2>
 </div>
