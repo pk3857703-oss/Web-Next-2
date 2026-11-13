@@ -261,7 +261,7 @@ Lets us know what your requirements are we are the builders. Nothing stop us.   
       
 
       {/* contact me */}
-  <h1 className='my-30 text-[clamp(4rem,7vw,9rem)] font-bold font-sans mx-5 w-[65%] justify-center  flex  '>Contact Me</h1>      
+  <h1 className='my-30 text-[clamp(3rem,7vw,9rem)] font-bold font-sans mx-3 w-[65%] justify-center  flex  '>Contact Me</h1>      
 <form className="max-w-sm mx-auto space-y-4 font-sans">
 
     <div>
