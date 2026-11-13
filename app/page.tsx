@@ -261,28 +261,60 @@ Lets us know what your requirements are we are the builders. Nothing stop us.   
       
 
       {/* contact me */}
-  <h1 className='my-30 text-[clamp(3rem,7vw,9rem)] font-bold font-sans mx-3 w-[65%] justify-center  flex  '>Contact Me</h1>      
-<form className="max-w-sm mx-auto space-y-4 font-sans">
+  <h1 className='my-30 text-[clamp(3rem,7vw,9rem)] font-bold font-sans mx-3 w-[65%] justify-center flex'>Contact Me</h1>      
+<div className="mx-5 items-center justify-center flex w-full">
+<form className="  w-full max-w-[600px] bg-white font-[Arial,sans-serif] ">
 
-    <div>
-        <label  className="block mb-2.5 text-sm font-medium text-heading">Name (required)
-</label>
-        <input type="text" id="visitors" className="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-2.5 py-2 shadow-xs placeholder:text-body" placeholder="" required />
-    </div>
-    <div>
-        <label  className="block mb-2.5 text-sm font-medium text-heading">Phone Number (required)
-</label>
-        <input type="text" id="visitors" className="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body" placeholder="" required />
-    </div>
-    <div>
-        <label className="block mb-2.5 text-sm font-medium text-heading">Project description (required)
-</label>
-        <input type="text" id="visitors" className="bg-neutral-secondary-medium border border-default-medium text-heading text-base rounded-base focus:ring-brand focus:border-brand block w-full px-3.5 py-3 shadow-xs placeholder:text-body" placeholder="" required />
-    </div>
-   <button className='text-white bg-black  text-heading font-thinbold py-2 px-4 rounded-3xl hover:bg-gray-500' type="submit">
-      Submit
-    </button>
-</form>
+      <div className="mb-[30px]">
+        <label className="block text-[12px] font-bold mb-[30px]">
+          Name (required)
+        </label>
+        <input
+          type="text"
+          required
+          className="w-full h-10px border-0 border-b border-black
+          rounded-none outline-none bg-transparent"
+          
+        />
+      </div>
+
+           <div className="mb-[30px]">
+        <label className="block text-[12px] font-bold mb-[30px]">
+          Phone Number (required)
+        </label>
+        <input
+          type="tel"
+          required
+          className="w-full h-10px border-0 border-b border-black
+          rounded-none outline-none bg-transparent"
+          
+        />
+      </div>
+
+           <div className="mb-[30px]">
+        <label className="block text-[12px] font-bold mb-[30px]">
+          Project description (required)
+        </label>
+        <input
+          type="text"
+          required
+          className="w-full h-10px border-0 border-b border-black
+          rounded-none outline-none bg-transparent"
+          
+        />
+      </div>
+
+      <button
+        type="submit"
+        className="w-[104px] h-[38px] rounded-full bg-black
+        text-white text-[12px] font-bold hover:bg-neutral-800
+        transition-colors"
+      >
+        Submit
+      </button>
+
+    </form> </div>
+
 <div className="h-16"></div>
 
 <footer className=' bg-olive-900  bg-neutral-tertiary-medium text-heading py-6 px-4 text-stone-200 font-sans'>
